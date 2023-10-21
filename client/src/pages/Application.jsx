@@ -284,6 +284,7 @@ const Application = ({ color }) => {
                 value={data.linkedIn}
                 onChange={handleChange}
                 fullWidth
+                required
               />
             </Grid>
             <Grid item xs={12}>
@@ -293,6 +294,7 @@ const Application = ({ color }) => {
                 value={data.github}
                 onChange={handleChange}
                 fullWidth
+                required
               />
             </Grid>
             <Grid item xs={12}>
@@ -309,6 +311,7 @@ const Application = ({ color }) => {
                 className="w-full border p-3 rounded-[4px] border-[#c4c4c4]"
                 accept=".jpg,.jpeg,.png"
                 onChange={handleFileChange}
+                required
               />
             </Grid>
             <Grid item xs={12}>
@@ -325,6 +328,7 @@ const Application = ({ color }) => {
                 accept=".pdf,.doc,.docx"
                 onChange={handleFileChange}
                 className="w-full border p-3 rounded-[4px] border-[#c4c4c4]"
+                required
                 // className="hidden"
               />
             </Grid>
