@@ -5,7 +5,7 @@ export const teams = [
     positions: [
       { name: "Lead", id: "graphicsLead" },
       { name: "Executive", id: "graphicsExec" },
-      { name: "Head", id: "graphicsHead" },
+      { name: "Director", id: "graphicsDirector" },
     ],
   },
   {
@@ -14,7 +14,7 @@ export const teams = [
     positions: [
       { name: "Lead", id: "mediaLead" },
       { name: "Executive", id: "mediaExec" },
-      { name: "Head", id: "mediaHead" },
+      { name: "Director", id: "mediaDirector" },
     ],
   },
   {
@@ -23,7 +23,7 @@ export const teams = [
     positions: [
       { name: "Lead", id: "socialMediaLead" },
       { name: "Executive", id: "socialMediaExec" },
-      { name: "Head", id: "socialMediaHead" },
+      { name: "Director", id: "socialMediaDirector" },
     ],
   },
   {
@@ -32,7 +32,7 @@ export const teams = [
     positions: [
       { name: "Lead", id: "technicalLead" },
       { name: "Executive", id: "technicalExec" },
-      { name: "Head", id: "technicalHead" },
+      { name: "Director", id: "technicalDirector" },
     ],
   },
   {
@@ -41,7 +41,7 @@ export const teams = [
     positions: [
       { name: "Lead", id: "outreachLead" },
       { name: "Executive", id: "outreachExec" },
-      { name: "Head", id: "outreachHead" },
+      { name: "Director", id: "outreachDirector" },
     ],
   },
   {
@@ -50,7 +50,7 @@ export const teams = [
     positions: [
       { name: "Lead", id: "eventsLead" },
       { name: "Executive", id: "eventsExec" },
-      { name: "Head", id: "eventsHead" },
+      { name: "Director", id: "eventsDirector" },
     ],
   },
   {
@@ -59,7 +59,7 @@ export const teams = [
     positions: [
       { name: "Lead", id: "contentLead" },
       { name: "Executive", id: "contentExec" },
-      { name: "Head", id: "contentHead" },
+      { name: "Director", id: "contentDirector" },
     ],
   },
   {
@@ -68,7 +68,7 @@ export const teams = [
     positions: [
       { name: "Lead", id: "hrLead" },
       { name: "Executive", id: "hrExec" },
-      { name: "Head", id: "hrHead" },
+      { name: "Director", id: "hrDirector" },
     ],
   },
   {
@@ -77,7 +77,7 @@ export const teams = [
     positions: [
       { name: "Lead", id: "logisticsLead" },
       { name: "Executive", id: "logisticsExec" },
-      { name: "Head", id: "logisticsHead" },
+      { name: "Director", id: "logisticsDirector" },
     ],
   },
 ];
@@ -104,7 +104,7 @@ resps.set("Logistics-Executive", [
   "Assisting in handling logistical issues or emergencies during events.",
 ]);
 
-resps.set("Logistics-Head", [
+resps.set("Logistics-Director", [
   "Assisting the Logistics Team Lead in overseeing logistical activities.",
   "Coordinating logistics for club events and activities.",
   "Assisting in inventory management and procurement processes.",
@@ -134,7 +134,7 @@ resps.set("Hr-Executive", [
   "Contributing to a positive and inclusive work environment within the club.",
 ]);
 
-resps.set("Hr-Head", [
+resps.set("Hr-Director", [
   "Assisting the HR Team Lead in overseeing HR activities.",
   "Implementing HR policies and procedures in line with club objectives.",
   "Assisting in recruitment processes and onboarding activities.",
@@ -157,14 +157,14 @@ resps.set("Content-Lead", [
 resps.set("Content-Executive", [
   "Creating engaging and informative content for the club's events, workshops, and promotions.",
   "Writing articles, blog posts, and social media updates to promote club activities.",
-  "Collaborating with the Content Team Head to ensure content adheres to established guidelines.",
+  "Collaborating with the Content Team Director to ensure content adheres to established guidelines.",
   "Incorporating feedback and making revisions to content as needed.",
   "Assisting in creating written materials for presentations and workshops.",
   "Maintaining an organized library of content assets for future use.",
   "Contributing to the overall content efforts of the club.",
 ]);
 
-resps.set("Content-Head", [
+resps.set("Content-Director", [
   "Leading the content team in creating engaging and informative content for club events and promotions.",
   "Setting content guidelines and ensuring consistency across all club materials.",
   "Collaborating with the Content Team Lead to assign and manage content creation tasks effectively.",
@@ -194,7 +194,7 @@ resps.set("Events-Executive", [
   "Assisting in managing event-related documentation and follow-up tasks.",
 ]);
 
-resps.set("Events-Head", [
+resps.set("Events-Director", [
   "Assisting the Events Team Lead in overseeing event planning activities.",
   "Contributing to the conceptualization and planning of club events.",
   "Coordinating with vendors, sponsors, and venues for event logistics.",
@@ -224,7 +224,7 @@ resps.set("Outreach-Executive", [
   "Assisting in measuring and reporting on the effectiveness of outreach initiatives.",
 ]);
 
-resps.set("Outreach-Head", [
+resps.set("Outreach-Director", [
   "Assisting the Outreach Team Lead in overseeing outreach activities.",
   "Contributing to the development of outreach strategies.",
   "Supporting the establishment of partnerships with external organizations.",
@@ -254,7 +254,7 @@ resps.set("Technical-Executive", [
   "Assisting in the organization and logistics of technical events.",
 ]);
 
-resps.set("Technical-Head", [
+resps.set("Technical-Director", [
   "Assisting the Technical Team Lead in overseeing technical projects.",
   "Contributing to the planning and execution of coding-related activities.",
   "Coordinating technical workshops, seminars, and coding competitions.",
@@ -284,7 +284,7 @@ resps.set("Social Media-Executive", [
   "Staying updated with the latest trends in social media marketing.",
 ]);
 
-resps.set("Social Media-Head", [
+resps.set("Social Media-Director", [
   "Assisting the Social Media Team Lead in overseeing social media activities.",
   "Contributing to the development of social media strategies and content.",
   "Managing social media calendars, including scheduling posts and campaigns.",
@@ -313,7 +313,7 @@ resps.set("Media-Executive", [
   "Providing support for media logistics and equipment management.",
 ]);
 
-resps.set("Media-Head", [
+resps.set("Media-Director", [
   "Assisting the Media Team Lead in overseeing media-related projects.",
   "Contributing to the planning and execution of media coverage.",
   "Managing photography and videography teams for capturing moments.",
@@ -336,14 +336,14 @@ resps.set("Graphics-Lead", [
 resps.set("Graphics-Executive", [
   "Creating visually appealing graphics for the club's events, workshops, and promotions.",
   "Designing posters, banners, and social media graphics to promote club activities.",
-  "Collaborating with the Graphic Head to ensure designs adhere to established guidelines.",
+  "Collaborating with the Graphic Director to ensure designs adhere to established guidelines.",
   "Incorporating feedback and making revisions to graphics as needed.",
   "Assisting in creating multimedia content for presentations and workshops.",
   "Maintaining an organized library of design assets for future use.",
   "Contributing to the overall design efforts of the club.",
 ]);
 
-resps.set("Graphics-Head", [
+resps.set("Graphics-Director", [
   "Leading the design team in creating visually appealing graphics for club events and promotions.",
   "Setting design guidelines and ensuring consistency across all club materials.",
   "Collaborating with the Graphic Lead to assign and manage design tasks effectively.",
@@ -373,7 +373,7 @@ reqs.set("Logistics-Executive", [
   "Collaborating with logistics leaders to achieve logistical goals aligned with club objectives.",
 ]);
 
-reqs.set("Logistics-Head", [
+reqs.set("Logistics-Director", [
   "Playing a key role in logistical operations.",
   "Actively participating in club-wide logistical discussions.",
   "Serving as a bridge between the logistics team and other teams for seamless coordination.",
@@ -400,7 +400,7 @@ reqs.set("Hr-Executive", [
   "Collaborating with HR leaders to achieve HR goals aligned with club objectives.",
 ]);
 
-reqs.set("Hr-Head", [
+reqs.set("Hr-Director", [
   "Playing a key role in HR-related initiatives.",
   "Actively participating in club-wide HR discussions.",
   "Serving as a bridge between the HR team and other teams for seamless coordination.",
@@ -427,7 +427,7 @@ reqs.set("Content-Executive", [
   "Continuously learning and growing as a content creator, honing your skills and creativity.",
 ]);
 
-reqs.set("Content-Head", [
+reqs.set("Content-Director", [
   "Playing a key role in maintaining the club's messaging and communication standards.",
   "Actively participating in content discussions and offering creative input for projects.",
   "Serving as a bridge between the content team and other teams for seamless coordination.",
@@ -454,7 +454,7 @@ reqs.set("Events-Executive", [
   "Collaborating with events leaders to achieve event planning goals aligned with club objectives.",
 ]);
 
-reqs.set("Events-Head", [
+reqs.set("Events-Director", [
   "Playing a key role in event planning and execution.",
   "Actively participating in club-wide event planning discussions.",
   "Serving as a bridge between the events team and other teams for seamless coordination.",
@@ -481,7 +481,7 @@ reqs.set("Outreach-Executive", [
   "Collaborating with outreach leaders to achieve outreach goals aligned with club objectives.",
 ]);
 
-reqs.set("Outreach-Head", [
+reqs.set("Outreach-Director", [
   "Playing a key role in outreach efforts and community engagement.",
   "Actively participating in club-wide outreach discussions.",
   "Serving as a bridge between the outreach team and other teams for seamless coordination.",
@@ -508,7 +508,7 @@ reqs.set("Technical-Executive", [
   "Collaborating with technical leaders to achieve technical goals aligned with club objectives.",
 ]);
 
-reqs.set("Technical-Head", [
+reqs.set("Technical-Director", [
   "Playing a key role in technical projects and coding activities.",
   "Actively participating in club-wide technical discussions.",
   "Serving as a bridge between the technical team and other teams for seamless coordination.",
@@ -535,7 +535,7 @@ reqs.set("Social Media-Executive", [
   "Collaborating with social media leaders to achieve social media goals aligned with club objectives.",
 ]);
 
-reqs.set("Social Media-Head", [
+reqs.set("Social Media-Director", [
   "Playing a key role in social media initiatives and content creation.",
   "Actively participating in club-wide social media discussions.",
   "Serving as a bridge between the social media team and other teams for seamless coordination.",
@@ -562,7 +562,7 @@ reqs.set("Media-Executive", [
   "Collaborating with media leaders to achieve media goals aligned with club objectives.",
 ]);
 
-reqs.set("Media-Head", [
+reqs.set("Media-Director", [
   "Playing a key role in media projects and coverage.",
   "Actively participating in club-wide media discussions.",
   "Serving as a bridge between the media team and other teams for seamless coordination.",
@@ -589,7 +589,7 @@ reqs.set("Graphics-Executive", [
   "Continuously learning and growing as a designer, honing your skills and creativity.",
 ]);
 
-reqs.set("Graphics-Head", [
+reqs.set("Graphics-Director", [
   "Playing a key role in maintaining the club's visual identity and brand representation.",
   "Actively participating in design discussions and offering creative input for projects.",
   "Serving as a bridge between the design team and other teams for seamless coordination.",
@@ -620,7 +620,7 @@ benes.set("Logistics-Executive", [
   "Recognition for your contributions to the club's success.",
 ]);
 
-benes.set("Logistics-Head", [
+benes.set("Logistics-Director", [
   "Opportunity to contribute significantly to logistical functions.",
   "Gain experience in logistics management and coordination.",
   "Showcase your logistical expertise for future career opportunities.",
@@ -650,7 +650,7 @@ benes.set("Hr-Executive", [
   "Recognition for your contributions to the club's success.",
 ]);
 
-benes.set("Hr-Head", [
+benes.set("Hr-Director", [
   "Opportunity to contribute significantly to HR functions.",
   "Gain experience in HR management and coordination.",
   "Showcase your HR expertise for future career opportunities.",
@@ -680,7 +680,7 @@ benes.set("Content-Executive", [
   "Recognition for your contributions to the club's success.",
 ]);
 
-benes.set("Content-Head", [
+benes.set("Content-Director", [
   "Opportunity to lead and influence the content direction of an innovative club.",
   "Gain experience in managing a team and coordinating content projects effectively.",
   "Showcase a diverse range of content projects in your portfolio for professional advancement.",
@@ -710,7 +710,7 @@ benes.set("Events-Executive", [
   "Recognition for your contributions to the club's success.",
 ]);
 
-benes.set("Events-Head", [
+benes.set("Events-Director", [
   "Opportunity to contribute significantly to event planning functions.",
   "Gain experience in event planning and coordination.",
   "Showcase your event planning expertise for future career opportunities.",
@@ -740,7 +740,7 @@ benes.set("Outreach-Executive", [
   "Recognition for your contributions to the club's success.",
 ]);
 
-benes.set("Outreach-Head", [
+benes.set("Outreach-Director", [
   "Opportunity to contribute significantly to outreach functions.",
   "Gain experience in community engagement and outreach strategies.",
   "Showcase your outreach expertise for future career opportunities.",
@@ -770,7 +770,7 @@ benes.set("Technical-Executive", [
   "Recognition for your contributions to the club's success.",
 ]);
 
-benes.set("Technical-Head", [
+benes.set("Technical-Director", [
   "Opportunity to contribute significantly to technical projects and coding activities.",
   "Gain experience in planning and executing coding-related initiatives.",
   "Showcase your technical expertise for future career opportunities.",
@@ -800,7 +800,7 @@ benes.set("Social Media-Executive", [
   "Recognition for your contributions to the club's success.",
 ]);
 
-benes.set("Social Media-Head", [
+benes.set("Social Media-Director", [
   "Opportunity to contribute significantly to the club's social media presence.",
   "Gain experience in social media marketing and content creation.",
   "Showcase your social media management expertise for future career opportunities.",
@@ -830,7 +830,7 @@ benes.set("Media-Executive", [
   "Recognition for your contributions to the club's success.",
 ]);
 
-benes.set("Media-Head", [
+benes.set("Media-Director", [
   "Opportunity to contribute significantly to media coverage and projects.",
   "Gain experience in media production, editing, and coverage.",
   "Showcase your media editing and production expertise for future career opportunities.",
@@ -860,7 +860,7 @@ benes.set("Graphics-Executive", [
   "Recognition for your contributions to the club's success.",
 ]);
 
-benes.set("Graphics-Head", [
+benes.set("Graphics-Director", [
   "Opportunity to lead and influence the visual direction of an innovative club.",
   "Gain experience in managing a team and coordinating design projects effectively.",
   "Showcase a diverse range of design projects in your portfolio for professional advancement.",

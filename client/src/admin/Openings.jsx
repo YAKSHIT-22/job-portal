@@ -108,7 +108,7 @@ const CheckboxComponent = ({ color }) => {
     "Hr",
     "Logistics",
   ];
-  const childrenLabels = ["Lead", "Executive", "Head"];
+  const childrenLabels = ["Lead", "Executive", "Directors"];
 
   const convertMap = async () => {
     try {
