@@ -18,7 +18,7 @@ const Footer = () => {
           color="orange"
           className="hover:underline transition-all duration-300 ease-in-out"
         >
-          <a href="https://codingninjas-cuiet.in/" target="_blank">
+          <a href="https://codingninjas.chitkara.edu.in/" target="_blank">
             Visit Website
           </a>
         </Typography>

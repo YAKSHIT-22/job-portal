@@ -106,7 +106,7 @@ function Header({
                 display: { xs: "flex", md: "flex" },
               }}
             >
-              <a href="https://codingninjas-cuiet.in/" target="_blank">
+              <a href="https://codingninjas.chitkara.edu.in/" target="_blank">
                 <img
                   src={logo}
                   onClick={() => navigate("/")}
